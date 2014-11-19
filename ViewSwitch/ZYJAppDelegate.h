@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "ZYJSwitchViewController.h"
 @interface ZYJAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
+@property (strong,nonatomic) ZYJSwitchViewController *switchViewController;
 @end

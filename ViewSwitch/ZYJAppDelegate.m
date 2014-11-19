@@ -15,6 +15,8 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    self.switchViewController = [[ZYJSwitchViewController alloc] initWithNibName:@"ZYJSwitchViewController" bundle:nil];
+    self.window.rootViewController = self.switchViewController;
     [self.window makeKeyAndVisible];
     return YES;
 }

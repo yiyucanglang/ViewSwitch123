@@ -19,6 +19,12 @@
 		55F9EB67199F81ED00940484 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55F9EB4F199F81ED00940484 /* UIKit.framework */; };
 		55F9EB6F199F81ED00940484 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55F9EB6D199F81ED00940484 /* InfoPlist.strings */; };
 		55F9EB71199F81ED00940484 /* ViewSwitchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F9EB70199F81ED00940484 /* ViewSwitchTests.m */; };
+		55F9EB7D199F820700940484 /* ZYJSwitchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F9EB7B199F820700940484 /* ZYJSwitchViewController.m */; };
+		55F9EB7E199F820700940484 /* ZYJSwitchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55F9EB7C199F820700940484 /* ZYJSwitchViewController.xib */; };
+		55F9EB83199F827400940484 /* ZYJBlueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F9EB81199F827400940484 /* ZYJBlueViewController.m */; };
+		55F9EB84199F827400940484 /* ZYJBlueViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55F9EB82199F827400940484 /* ZYJBlueViewController.xib */; };
+		55F9EB88199F828C00940484 /* ZYJYellowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F9EB86199F828C00940484 /* ZYJYellowViewController.m */; };
+		55F9EB89199F828C00940484 /* ZYJYellowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55F9EB87199F828C00940484 /* ZYJYellowViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +54,15 @@
 		55F9EB6C199F81ED00940484 /* ViewSwitchTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ViewSwitchTests-Info.plist"; sourceTree = "<group>"; };
 		55F9EB6E199F81ED00940484 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		55F9EB70199F81ED00940484 /* ViewSwitchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewSwitchTests.m; sourceTree = "<group>"; };
+		55F9EB7A199F820700940484 /* ZYJSwitchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYJSwitchViewController.h; sourceTree = "<group>"; };
+		55F9EB7B199F820700940484 /* ZYJSwitchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYJSwitchViewController.m; sourceTree = "<group>"; };
+		55F9EB7C199F820700940484 /* ZYJSwitchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYJSwitchViewController.xib; sourceTree = "<group>"; };
+		55F9EB80199F827400940484 /* ZYJBlueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYJBlueViewController.h; sourceTree = "<group>"; };
+		55F9EB81199F827400940484 /* ZYJBlueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYJBlueViewController.m; sourceTree = "<group>"; };
+		55F9EB82199F827400940484 /* ZYJBlueViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYJBlueViewController.xib; sourceTree = "<group>"; };
+		55F9EB85199F828C00940484 /* ZYJYellowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYJYellowViewController.h; sourceTree = "<group>"; };
+		55F9EB86199F828C00940484 /* ZYJYellowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYJYellowViewController.m; sourceTree = "<group>"; };
+		55F9EB87199F828C00940484 /* ZYJYellowViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYJYellowViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +92,7 @@
 		55F9EB3F199F81ED00940484 = {
 			isa = PBXGroup;
 			children = (
+				55F9EB7F199F821C00940484 /* UI */,
 				55F9EB51199F81ED00940484 /* ViewSwitch */,
 				55F9EB6A199F81ED00940484 /* ViewSwitchTests */,
 				55F9EB4A199F81ED00940484 /* Frameworks */,
@@ -142,6 +158,22 @@
 				55F9EB6D199F81ED00940484 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		55F9EB7F199F821C00940484 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				55F9EB85199F828C00940484 /* ZYJYellowViewController.h */,
+				55F9EB86199F828C00940484 /* ZYJYellowViewController.m */,
+				55F9EB87199F828C00940484 /* ZYJYellowViewController.xib */,
+				55F9EB80199F827400940484 /* ZYJBlueViewController.h */,
+				55F9EB81199F827400940484 /* ZYJBlueViewController.m */,
+				55F9EB82199F827400940484 /* ZYJBlueViewController.xib */,
+				55F9EB7B199F820700940484 /* ZYJSwitchViewController.m */,
+				55F9EB7C199F820700940484 /* ZYJSwitchViewController.xib */,
+				55F9EB7A199F820700940484 /* ZYJSwitchViewController.h */,
+			);
+			name = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,7 +252,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55F9EB89199F828C00940484 /* ZYJYellowViewController.xib in Resources */,
+				55F9EB7E199F820700940484 /* ZYJSwitchViewController.xib in Resources */,
 				55F9EB56199F81ED00940484 /* InfoPlist.strings in Resources */,
+				55F9EB84199F827400940484 /* ZYJBlueViewController.xib in Resources */,
 				55F9EB5E199F81ED00940484 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -241,6 +276,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				55F9EB5C199F81ED00940484 /* ZYJAppDelegate.m in Sources */,
+				55F9EB88199F828C00940484 /* ZYJYellowViewController.m in Sources */,
+				55F9EB7D199F820700940484 /* ZYJSwitchViewController.m in Sources */,
+				55F9EB83199F827400940484 /* ZYJBlueViewController.m in Sources */,
 				55F9EB58199F81ED00940484 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
